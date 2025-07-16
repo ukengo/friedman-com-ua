@@ -1,0 +1,70 @@
+BODY {	font-family:Arial, Helvetica, sans-serif;	font-size:13px; color : #303030;}
+TABLE {font:13px Arial, Helvetica, sans-serif;}
+A {color:#707070;font:12px Arial, Helvetica, sans-serif;}
+
+/* Заголовок */
+.MAIN_TEXT {font:16px Arial, Helvetica, sans-serif;color:#303030;font-weight:bold;}
+
+/* Таблица с формой */
+.MAIN_FORM {}
+
+/* Ячейка с форме запроса */
+.HC {border-top:#cdcdcd 1px solid;}
+
+/* Поля Стоимость в валюте, Объем */
+.HT {border:#cdcdcd 1px solid;font:12px Arial, Helvetica, sans-serif;width:1in;}
+
+.HT2 {border:#cdcdcd 1px solid;font:12px Arial, Helvetica, sans-serif;width:1.5in;}
+
+.HD {border:#cdcdcd 1px solid;font:12px Arial, Helvetica, sans-serif;width:0.5in;}
+
+/* Открывающийся список Валюта контракта */
+.HS {border:#cdcdcd 1px solid;font:12px Arial, Helvetica, sans-serif;width:2in;}
+
+/* Ячейка с кнопками */
+.TB {padding-top:15px;}
+
+/* Кнопки */
+.HB {
+	cursor:hand;
+	border: 1px solid Gray;
+	background-color: #f8f8f8;
+	font:12px Arial, Helvetica, sans-serif;
+}
+
+/* Таблицы с результатами */
+.RES_TAB {font:9pt Arial, Helvetica, sans-serif;width:100%;}
+
+/* Заголовки в таблице с результатами */
+.RH {
+	border: 1px solid Gray;
+	background-color:#f8f8f8;
+}
+
+/* Ячейки в таблице с результатами */
+.RD {border:#cdcdcd 1px solid;}
+
+/* Таблица с  наименованием товара */
+.CODE_NAME {font:9pt Arial, Helvetica, sans-serif;width:100%;}
+
+.L1 {margin-top:5px;cursor:hand;}
+
+.L2 {margin-top:5px;margin-left:20px;}
+
+.L3 {cursor:hand;color:darkblue}
+
+.main_form a{
+   color:darkblue;
+   text-decoration:none
+}
+
+.get_a a{
+   color:darkblue;
+   text-decoration:none
+}
+
+.bg_1
+{
+  background-color:#8cdf31;
+}
+

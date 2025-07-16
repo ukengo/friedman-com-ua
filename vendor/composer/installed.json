@@ -1,0 +1,101 @@
+[
+    {
+        "name": "doctrine/lexer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "cc709ba91eee09540091ad5a5f2616727662e41b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/lexer/zipball/cc709ba91eee09540091ad5a5f2616727662e41b",
+            "reference": "cc709ba91eee09540091ad5a5f2616727662e41b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2017-07-24T09:37:08+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "lexer",
+            "parser"
+        ]
+    },
+    {
+        "name": "shadz3rg/php-stamp",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shadz3rg/PHPStamp.git",
+            "reference": "590ff0316945235127910dd4a164cd0beedbe2b4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shadz3rg/PHPStamp/zipball/590ff0316945235127910dd4a164cd0beedbe2b4",
+            "reference": "590ff0316945235127910dd4a164cd0beedbe2b4",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "1.0.*@dev"
+        },
+        "time": "2017-08-08T15:17:12+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PHPStamp": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Oleg",
+                "email": "ukhardc0r3@gmail.com"
+            }
+        ],
+        "description": "A library for true XSL-way templating of XML-based Office documents. Supports MS Word docx.",
+        "keywords": [
+            "docx",
+            "template",
+            "word"
+        ]
+    }
+]
