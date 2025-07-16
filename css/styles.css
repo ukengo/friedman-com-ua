@@ -2641,7 +2641,7 @@ Polylang
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
   .header .btn-order {
     display: none;
   }
