@@ -382,9 +382,9 @@ textarea,
   line-height: 27px\9;
   color: #7d7d7d;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   margin-bottom: 1px;
 }
 
@@ -457,8 +457,8 @@ input[type="submit"]:focus {
 
 .el-pos li {
   padding: 0 0 15px 165px;
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   background: none;
 }
 
@@ -481,9 +481,9 @@ input[type="submit"]:focus {
 /* btn */
 .btn-order {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   background: url("../images/btn-order.png") 100% 0 no-repeat;
   height: 70px;
   font-size: 14px;
@@ -586,9 +586,9 @@ input[type="submit"]:focus {
 
 .header .contacts ul li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   padding: 0 0 0 16px;
   background: url("../images/contacts-sep.gif") 8px 0 no-repeat;
   font-size: 12px;
@@ -645,9 +645,9 @@ input[type="submit"]:focus {
 .index-nav li {
   width: 228px;
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  *margin-left: -1px;
+  display: inline;
+  zoom: 1;
+  margin-left: -1px;
   padding: 0 0 0 17px;
   letter-spacing: normal;
   vertical-align: top;
@@ -709,9 +709,9 @@ input[type="submit"]:focus {
   padding: 0 0 0 39px;
   background: none;
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  *margin-left: -1px;
+  display: inline;
+  zoom: 1;
+  margin-left: -1px;
   letter-spacing: normal;
   vertical-align: top;
 }
@@ -839,8 +839,8 @@ input[type="submit"]:focus {
 /* index-top-sidebar */
 .index-top-sidebar {
   padding: 0 328px 18px 0;
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
 }
 
 .index-top-sidebar:after {
@@ -929,8 +929,8 @@ input[type="submit"]:focus {
 
 /* content-position */
 .content-position {
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   padding: 5px 320px 0 18px;
   width: 628px;
   margin: 0 auto;
@@ -980,9 +980,9 @@ input[type="submit"]:focus {
   letter-spacing: normal;
   color: #898989;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   white-space: nowrap;
 }
 
@@ -1005,9 +1005,9 @@ input[type="submit"]:focus {
 
 .documents-list li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   width: 21%;
   margin: 0 2%;
   vertical-align: top;
@@ -1135,9 +1135,9 @@ ul.links-list.big li {
 .links-two-column .column {
   padding: 0 0 0 29px;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   width: 299px;
   letter-spacing: normal;
@@ -1185,9 +1185,9 @@ ul.links-list.big li {
 .documents-two-column .column {
   padding: 0 0 0 35px;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   width: 294px;
   letter-spacing: normal;
@@ -1262,7 +1262,7 @@ ul.links-list.big li {
   line-height: 0;
   letter-spacing: -1px;
   margin-left: -30px;
-  *width: 996px;
+width: 996px;
 }
 
 .news-sidebar ul li {
@@ -1271,9 +1271,9 @@ ul.links-list.big li {
   font-size: 12px;
   letter-spacing: normal;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   background: none;
 }
@@ -1360,9 +1360,9 @@ ul.links-list.big li {
 
 .tabs-nav li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   font: 500 18px/20px 'Ubuntu', sans-serif;
   color: #000;
@@ -1384,9 +1384,9 @@ ul.links-list.big li {
 
 .pagination li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   padding: 0 9px;
   background: none;
   font-size: 12px;
@@ -1402,9 +1402,9 @@ ul.links-list.big li {
   line-height: 19px;
   font-weight: bold;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   color: #fff;
   text-decoration: none;
   vertical-align: middle;
@@ -1416,9 +1416,9 @@ ul.links-list.big li {
   border: 3px solid #e6e6e6;
   padding: 0 5px;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: middle;
   font: 500 18px/29px 'ubuntu';
 }
@@ -1555,8 +1555,8 @@ ul.links-list.big li {
 }
 
 .form-search ul {
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   overflow: hidden;
   padding: 5px 0 17px;
   margin: 0 0 0 -3px;
@@ -1680,8 +1680,8 @@ ul.links-list.big li {
 }
 
 .services-box .columns {
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   font-size: 0;
   line-height: 0;
   letter-spacing: -1px;
@@ -1698,9 +1698,9 @@ ul.links-list.big li {
 .services-box .columns .column {
   letter-spacing: normal;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   width: 192px;
   padding: 0 0 0 25px;
   vertical-align: top;
@@ -1736,9 +1736,9 @@ ul.links-list.big li {
   height: 54px;
   background: url("../images/icons.png") no-repeat;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   margin-top: -29px;
   margin-right: 3px;

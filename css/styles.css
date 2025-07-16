@@ -411,9 +411,9 @@ textarea,
   line-height: 27px \9;
   color: #7d7d7d;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   margin-bottom: 1px;
   border-radius: 4px;
 }
@@ -484,8 +484,8 @@ input[type="submit"]:focus {
 
 .el-pos li {
   padding: 0 0 15px 165px;
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   background: none
 }
 
@@ -507,9 +507,9 @@ input[type="submit"]:focus {
 
 .btn-order {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   background: url(../img/btn-order.png) 100% 0 no-repeat;
   height: 70px;
   font-size: 14px;
@@ -676,9 +676,9 @@ input[type="submit"]:focus {
 .index-nav li {
   width: 40%;
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  *margin-left: -1px;
+  display: inline;
+  zoom: 1;
+  margin-left: -1px;
   letter-spacing: normal;
   vertical-align: top;
   font: 400 14px/18px var(--font-family-primary);
@@ -894,8 +894,8 @@ input[type="submit"]:focus {
 
 .index-top-sidebar {
   padding: 0 328px 18px 0;
-  *overflow: visible;
-  *height: 1%
+  overflow: visible;
+  height: 1%
 }
 
 .index-top-sidebar:after {
@@ -999,8 +999,8 @@ input[type="submit"]:focus {
 }
 
 .content-position {
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   padding: 5px 320px 0 18px;
   margin: 0 auto;
 }
@@ -1061,9 +1061,9 @@ input[type="submit"]:focus {
   letter-spacing: normal;
   color: #898989;
   /*display: inline-block;*/
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   /*white-space: nowrap*/
 }
 
@@ -1086,9 +1086,9 @@ input[type="submit"]:focus {
 
 .documents-list li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   width: 21%;
   margin: 0 2%;
   vertical-align: top;
@@ -1219,9 +1219,9 @@ ul.links-list.big li a {
 .links-two-column .column {
   padding: 0 0 0 29px;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   width: 50%;
   letter-spacing: normal
@@ -1273,9 +1273,9 @@ ul.links-list.big li a {
   /*padding: 0 0 0 35px;*/
   padding: 0;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   /*width: 294px;*/
   width: 100%;
@@ -1474,7 +1474,7 @@ ul.links-list.big li a {
   line-height: 0;
   letter-spacing: -1px;
   margin-left: -30px;
-  *width: 996px
+  width: 996px
 }
 
 .news-sidebar ul li {
@@ -1483,9 +1483,9 @@ ul.links-list.big li a {
   font-size: 12px;
   letter-spacing: normal;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   background: none
 }
@@ -1573,9 +1573,9 @@ ul.links-list.big li a {
 
 .tabs-nav li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   font: 500 18px/20px var(--font-family-primary);
   color: #000;
@@ -1636,9 +1636,9 @@ ul.page-numbers {
 
 ul.page-numbers li {
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   padding: 0 9px;
   background: none;
   font-size: 15px;
@@ -1671,9 +1671,9 @@ ul.page-numbers li a.prev {
   /* line-height: 19px; */
   font-weight: 700;
   /* display: inline-block; */
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   color: #fff;
   vertical-align: middle;
   margin: 0 5px
@@ -1683,9 +1683,9 @@ ul.page-numbers li span.current {
   border: 3px solid #e6e6e6;
   padding: 0 5px;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: middle;
   font: 500 18px/29px var(--font-family-primary);
 }
@@ -1823,8 +1823,8 @@ ul.page-numbers li span.current {
 }
 
 .form-search ul {
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   overflow: hidden;
   padding: 5px 0 17px;
   margin: 0 0 0 -3px;
@@ -1945,8 +1945,8 @@ ul.page-numbers li span.current {
 }
 
 .services-box .columns {
-  *overflow: visible;
-  *height: 1%;
+  overflow: visible;
+  height: 1%;
   font-size: 0;
   line-height: 0;
   letter-spacing: -1px;
@@ -1963,9 +1963,9 @@ ul.page-numbers li span.current {
 .services-box .columns .column {
   letter-spacing: normal;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   width: 50%;
   padding: 0 0 0 25px;
   vertical-align: top
@@ -2006,9 +2006,9 @@ ul.page-numbers li span.current {
   height: 54px;
   background: url(../img/icons.png) no-repeat;
   display: inline-block;
-  *display: inline;
-  *margin-left: -1px;
-  *zoom: 1;
+  display: inline;
+  margin-left: -1px;
+  zoom: 1;
   vertical-align: top;
   margin-top: -29px;
   margin-right: 3px
