@@ -788,7 +788,8 @@ input[type="submit"]:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 4px;
 }
 
 .main-nav-container {
