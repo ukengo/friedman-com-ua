@@ -1455,7 +1455,7 @@ ul.links-list.big li a {
   padding: 13px 20px 0;
   border-top: 3px solid #e6e6e6;
   border-radius: 5px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 #seo-text~.news-sidebar {
@@ -1474,20 +1474,20 @@ ul.links-list.big li a {
   line-height: 0;
   letter-spacing: -1px;
   margin-left: -30px;
-  width: 996px
+  /* width: 996px */
 }
 
 .news-sidebar ul li {
   width: 216px;
   padding: 0 0 27px 30px;
-  font-size: 12px;
+  /* font-size: 12px; */
   letter-spacing: normal;
   display: inline-block;
-  display: inline;
-  margin-left: -1px;
-  zoom: 1;
-  vertical-align: top;
-  background: none
+  /* display: inline; */
+  /* margin-left: -1px; */
+  /* zoom: 1; */
+  /* vertical-align: top; */
+  /* background: none */
 }
 
 .news-sidebar ul li .date {
