@@ -1962,8 +1962,7 @@ ul.page-numbers li span.current {
 
 .services-box .columns .column {
   letter-spacing: normal;
-  display: inline-block;
-  display: inline;
+  display: inline-block;  
   margin-left: -1px;
   zoom: 1;
   width: 50%;
