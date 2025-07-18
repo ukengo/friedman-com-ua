@@ -1005,7 +1005,7 @@ input[type="submit"]:focus {
 
 .documents-list li {
   display: inline-block;
-  display: inline;
+  /* display: inline; */
   margin-left: -1px;
   zoom: 1;
   width: 21%;
