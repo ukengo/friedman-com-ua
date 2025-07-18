@@ -1218,8 +1218,7 @@ ul.links-list.big li a {
 
 .links-two-column .column {
   padding: 0 0 0 29px;
-  display: inline-block;
-  display: inline;
+  display: inline-block;  
   margin-left: -1px;
   zoom: 1;
   vertical-align: top;
