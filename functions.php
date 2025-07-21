@@ -646,3 +646,39 @@ function get_conveythis_exclusions() {
 	// Повертаємо exclusions
 	return $variables->exclusions ?? [];
 }
+
+add_action('save_post', function ($post_id) {
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    if (!function_exists('pll_get_post_translations')) {
+        return;
+    }
+
+    $translations = pll_get_post_translations($post_id);
+
+    $current_lang = pll_get_post_language($post_id);
+
+    $value = get_field('conveythis_translate', $post_id);
+
+    foreach ($translations as $lang => $translated_post_id) {
+        if ($lang === $current_lang || !$translated_post_id) continue;
+        update_field('conveythis_translate', $value, $translated_post_id);
+    }
+}, 20);
+
+add_action('edited_term', function ($term_id, $tt_id, $taxonomy) {
+    if (!function_exists('pll_get_term_translations')) return;
+
+    $translations = pll_get_term_translations($term_id);
+
+    $current_lang = pll_get_term_language($term_id);
+
+    $value = get_field('conveythis_translate', $taxonomy . '_' . $term_id);
+
+    foreach ($translations as $lang => $translated_term_id) {
+        if ($lang === $current_lang || !$translated_term_id) continue;
+        update_field('conveythis_translate', $value, $taxonomy . '_' . $translated_term_id);
+    }
+}, 20, 3);

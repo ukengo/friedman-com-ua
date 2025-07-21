@@ -156,7 +156,21 @@ pll_the_languages(array(
     'echo' => 1
 ));
 $polylang_html = ob_get_clean();
-if (!is_conveythis_page_excluded()) {
+
+$show_en = false;
+if (is_singular()) {
+    $show_en = get_post_meta(get_the_ID(), 'conveythis_translate', true);
+} elseif (is_category() || is_tag() || is_tax()) {
+    $term = get_queried_object();
+    $show_en = get_term_meta($term->term_id, 'conveythis_translate', true);
+} elseif (is_post_type_archive('news')) {
+    $news_page = get_page_by_path('news');
+    if ($news_page) {
+        $show_en = get_post_meta($news_page->ID, 'conveythis_translate', true);
+    }
+}
+
+if ($show_en) {
 	$polylang_html = preg_replace('/<option[^>]*lang="en"[^>]*>.*?<\/option>/i', '', $polylang_html);
 	$en_url = esc_url(get_conveythis_url());
 	$current_lang = get_effective_language();
