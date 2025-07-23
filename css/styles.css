@@ -270,7 +270,7 @@ h2 {
 h3 {
   /* font: 16px var(--font-family-primary); */
   font-size: 16px;
-  color: #000;
+  color: #524e4e;
   padding: 11px 0 6px
 }
 
@@ -2315,9 +2315,10 @@ td {
 }
 
 h4 {
-  font: 14px Ubuntu, Arial;
-  color: #000;
   padding: 1px 0 1px;
+  font: 14px Ubuntu, Arial;
+  color: #524e4e;
+  font-weight: 600;
 }
 
 .develop {
